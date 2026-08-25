@@ -131,6 +131,74 @@ PrefabInstance:
       propertyPath: _interactionText
       value: 
       objectReference: {fileID: 456991460}
+    - target: {fileID: 661079623806977242, guid: ddc5a7c6f584d76469c8ee20250d3a04, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 661079623806977242, guid: ddc5a7c6f584d76469c8ee20250d3a04, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 661079623806977242, guid: ddc5a7c6f584d76469c8ee20250d3a04, type: 3}
+      propertyPath: m_ActionEvents.Array.data[5].m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 661079623806977242, guid: ddc5a7c6f584d76469c8ee20250d3a04, type: 3}
+      propertyPath: m_ActionEvents.Array.data[6].m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 661079623806977242, guid: ddc5a7c6f584d76469c8ee20250d3a04, type: 3}
+      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 996621437}
+    - target: {fileID: 661079623806977242, guid: ddc5a7c6f584d76469c8ee20250d3a04, type: 3}
+      propertyPath: m_ActionEvents.Array.data[1].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 996621437}
+    - target: {fileID: 661079623806977242, guid: ddc5a7c6f584d76469c8ee20250d3a04, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 661079623806977242, guid: ddc5a7c6f584d76469c8ee20250d3a04, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 661079623806977242, guid: ddc5a7c6f584d76469c8ee20250d3a04, type: 3}
+      propertyPath: m_ActionEvents.Array.data[4].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 996621437}
+    - target: {fileID: 661079623806977242, guid: ddc5a7c6f584d76469c8ee20250d3a04, type: 3}
+      propertyPath: m_ActionEvents.Array.data[5].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 661079623806977242, guid: ddc5a7c6f584d76469c8ee20250d3a04, type: 3}
+      propertyPath: m_ActionEvents.Array.data[6].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 661079623806977242, guid: ddc5a7c6f584d76469c8ee20250d3a04, type: 3}
+      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnMovementOverrides
+      objectReference: {fileID: 0}
+    - target: {fileID: 661079623806977242, guid: ddc5a7c6f584d76469c8ee20250d3a04, type: 3}
+      propertyPath: m_ActionEvents.Array.data[1].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnLookOverrides
+      objectReference: {fileID: 0}
+    - target: {fileID: 661079623806977242, guid: ddc5a7c6f584d76469c8ee20250d3a04, type: 3}
+      propertyPath: m_ActionEvents.Array.data[4].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnInteractOverrides
+      objectReference: {fileID: 0}
+    - target: {fileID: 661079623806977242, guid: ddc5a7c6f584d76469c8ee20250d3a04, type: 3}
+      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: BrackeysJam.Player.CustomPlayerController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 661079623806977242, guid: ddc5a7c6f584d76469c8ee20250d3a04, type: 3}
+      propertyPath: m_ActionEvents.Array.data[1].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: BrackeysJam.Player.CustomPlayerController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 661079623806977242, guid: ddc5a7c6f584d76469c8ee20250d3a04, type: 3}
+      propertyPath: m_ActionEvents.Array.data[4].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: BrackeysJam.Player.CustomPlayerController, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 2318909568991414244, guid: ddc5a7c6f584d76469c8ee20250d3a04, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.88173
@@ -183,10 +251,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 79024464993118885, guid: ddc5a7c6f584d76469c8ee20250d3a04, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5281281372893146217, guid: ddc5a7c6f584d76469c8ee20250d3a04, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 996621437}
     - targetCorrespondingSourceObject: {fileID: 5179004131544224430, guid: ddc5a7c6f584d76469c8ee20250d3a04, type: 3}
       insertIndex: -1
       addedObject: {fileID: 190361001}
@@ -240,6 +312,11 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!4 &190361004 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3000573060241736991, guid: ddc5a7c6f584d76469c8ee20250d3a04, type: 3}
+  m_PrefabInstance: {fileID: 190360999}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -426,8 +503,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Press 'E' to speak
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b328a7ba400ac8141aec6859717e8585, type: 2}
+  m_sharedMaterial: {fileID: -4860579390879363524, guid: b328a7ba400ac8141aec6859717e8585, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -457,7 +534,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 4
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -504,6 +581,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 456991458}
   m_CullTransparentMesh: 1
+--- !u!114 &716906594 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 661079623806977242, guid: ddc5a7c6f584d76469c8ee20250d3a04, type: 3}
+  m_PrefabInstance: {fileID: 190360999}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -678,6 +766,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6652e633ae007c440a26a3c23f597da4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Door
+  _story: {fileID: 6231892579173505729, guid: d8023e6b166711d4bb8309b8c0c74a64, type: 3}
+--- !u!1 &996621433 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5281281372893146217, guid: ddc5a7c6f584d76469c8ee20250d3a04, type: 3}
+  m_PrefabInstance: {fileID: 190360999}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &996621437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996621433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3986707912a89874199bef0b8ce9c934, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BrackeysJam.Player.CustomPlayerController
+  _controls: []
+  _horizontalSensitivity: 0.1
+  _verticalSensitivity: 0.1
+  _controllerSensitivity: 750
+  _enablePhysics: 0
+  _head: {fileID: 190361004}
+  _pInput: {fileID: 716906594}
+  _triggerArea: {fileID: 1886134254}
+  _interactionText: {fileID: 456991460}
 --- !u!1 &1054127889
 GameObject:
   m_ObjectHideFlags: 0
@@ -743,8 +858,8 @@ MonoBehaviour:
     This is a text
     sentence'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b328a7ba400ac8141aec6859717e8585, type: 2}
+  m_sharedMaterial: {fileID: -4860579390879363524, guid: b328a7ba400ac8141aec6859717e8585, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -774,7 +889,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -1194,6 +1309,17 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1886134254 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6192575117345682737, guid: ddc5a7c6f584d76469c8ee20250d3a04, type: 3}
+  m_PrefabInstance: {fileID: 190360999}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21c9428129fcb8544aa413e396e45e6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2088645826
 GameObject:
   m_ObjectHideFlags: 0

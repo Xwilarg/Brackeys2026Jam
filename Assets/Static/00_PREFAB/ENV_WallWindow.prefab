@@ -341,6 +341,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7965353907225794251, guid: a5f21ca6af4dd3043bc05996cd7ac26b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e2090a5950483b34d89813892de7671b, type: 2}
     - target: {fileID: 919132149155446097, guid: a5f21ca6af4dd3043bc05996cd7ac26b, type: 3}
       propertyPath: m_Name
       value: PRO_AC_A
@@ -407,6 +411,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ENV_WallDoorWindow_A
       objectReference: {fileID: 0}
+    - target: {fileID: 7348861693906767665, guid: af5ee8be2c9fe364990af1bb7aca8488, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a74f93c763ed5bb4ba218d9311b2d04f, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

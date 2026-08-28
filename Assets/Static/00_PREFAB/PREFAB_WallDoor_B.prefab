@@ -147,13 +147,47 @@ PrefabInstance:
       propertyPath: m_Name
       value: ENV_WallDoor_B
       objectReference: {fileID: 0}
+    - target: {fileID: 3442170947020363341, guid: 56e665df9398f894ca1ca7e5e5046413, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3442170947020363341, guid: 56e665df9398f894ca1ca7e5e5046413, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 792537737367519637}
   m_SourcePrefab: {fileID: 100100000, guid: 56e665df9398f894ca1ca7e5e5046413, type: 3}
 --- !u!4 &5917512704059591837 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56e665df9398f894ca1ca7e5e5046413, type: 3}
   m_PrefabInstance: {fileID: 6166979364293978998}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8813701923740433723 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3442170947020363341, guid: 56e665df9398f894ca1ca7e5e5046413, type: 3}
+  m_PrefabInstance: {fileID: 6166979364293978998}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &792537737367519637
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8813701923740433723}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4008920765048962883, guid: 56e665df9398f894ca1ca7e5e5046413, type: 3}

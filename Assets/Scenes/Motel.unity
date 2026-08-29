@@ -21,7 +21,7 @@ RenderSettings:
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.07655936, g: 0.24898839, b: 0.49685526, a: 1}
-  m_AmbientEquatorColor: {r: 0.29559743, g: 0.22030371, b: 0.22030371, a: 1}
+  m_AmbientEquatorColor: {r: 0.3018868, g: 0.17372727, b: 0.17372727, a: 1}
   m_AmbientGroundColor: {r: 0.13207549, g: 0.12600125, b: 0.11587754, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 1
@@ -4702,6 +4702,22 @@ PrefabInstance:
     - target: {fileID: 4400017349021345486, guid: c65c0f37008b58a4b974f38b93d10c06, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5643037867366165076, guid: c65c0f37008b58a4b974f38b93d10c06, type: 3}
+      propertyPath: m_Size.z
+      value: 0.23128155
+      objectReference: {fileID: 0}
+    - target: {fileID: 5643037867366165076, guid: c65c0f37008b58a4b974f38b93d10c06, type: 3}
+      propertyPath: m_Center.z
+      value: -0.038496543
+      objectReference: {fileID: 0}
+    - target: {fileID: 5643037867366165076, guid: c65c0f37008b58a4b974f38b93d10c06, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5643037867366165076, guid: c65c0f37008b58a4b974f38b93d10c06, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7080091914669308718, guid: c65c0f37008b58a4b974f38b93d10c06, type: 3}
       propertyPath: m_Name
@@ -11994,6 +12010,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1089045047910714449, guid: d9f513f8255b19a41b7fe1855a663e28, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 670959c860b6d554baf2964872ee8d89, type: 2}
+    - target: {fileID: 3179196238320552028, guid: d9f513f8255b19a41b7fe1855a663e28, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 670959c860b6d554baf2964872ee8d89, type: 2}
     - target: {fileID: 3644022161811533032, guid: d9f513f8255b19a41b7fe1855a663e28, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -12034,10 +12058,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6086965470144559376, guid: d9f513f8255b19a41b7fe1855a663e28, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 670959c860b6d554baf2964872ee8d89, type: 2}
+    - target: {fileID: 6791815468133863122, guid: d9f513f8255b19a41b7fe1855a663e28, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 670959c860b6d554baf2964872ee8d89, type: 2}
     - target: {fileID: 7845132982067342436, guid: d9f513f8255b19a41b7fe1855a663e28, type: 3}
       propertyPath: m_Name
       value: PREFAB_Stairs_A
       objectReference: {fileID: 0}
+    - target: {fileID: 8410449564364717614, guid: d9f513f8255b19a41b7fe1855a663e28, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 670959c860b6d554baf2964872ee8d89, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

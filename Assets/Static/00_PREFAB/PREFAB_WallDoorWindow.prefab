@@ -331,6 +331,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f300c35b7ff157a4fb2bbf6054c2b6ef, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7180350483633297965}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f300c35b7ff157a4fb2bbf6054c2b6ef, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5643037867366165076}
   m_SourcePrefab: {fileID: 100100000, guid: f300c35b7ff157a4fb2bbf6054c2b6ef, type: 3}
 --- !u!1 &4762953644689446099 stripped
 GameObject:
@@ -349,7 +352,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6652e633ae007c440a26a3c23f597da4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BrackeysJam.Prop.Door
-  _story: {fileID: 0}
+  _story: {fileID: 6231892579173505729, guid: d8023e6b166711d4bb8309b8c0c74a64, type: 3}
+--- !u!65 &5643037867366165076
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4762953644689446099}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.2704734, y: 2.4624317, z: 0.09435324}
+  m_Center: {x: -0.6208038, y: 1.2312158, z: 0.086721756}
 --- !u!4 &5283489505602276969 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f300c35b7ff157a4fb2bbf6054c2b6ef, type: 3}

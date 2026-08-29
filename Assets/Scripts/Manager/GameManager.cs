@@ -10,7 +10,7 @@ namespace BrackeysJam.Manager
         {
             if (!SceneManager.GetAllScenes().Any(x => x.name == "Motel"))
             {
-                SceneManager.LoadScene("Motel");
+                SceneManager.LoadScene("Motel", LoadSceneMode.Additive);
             }
         }
     }
